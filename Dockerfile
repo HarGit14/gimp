@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
   breeze-icon-theme \
   breeze-cursor-theme \
   fonts-noto \
+  libarchive-tools \
   && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 5901
